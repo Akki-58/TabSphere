@@ -1,0 +1,84 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 320px;
+    padding: 12px;
+    background: #f9fafb;
+    color: #333;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #111827;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 4px;
+}
+
+.tab, .saved {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 8px 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.tab:hover, .saved:hover {
+    transform: scale(1.02);
+    background: #f3f4f6;
+}
+
+.tab span {
+    flex: 1;
+    margin-right: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button {
+    border: none;
+    background: #e5e7eb;
+    padding: 5px 8px;
+    margin-left: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    /* transition: background 0.2s ease; */
+}
+
+button:hover {
+    background: #d1d5db;
+}
+
+.close-btn {
+    background: #fca5a5;
+}
+
+.close-btn:hover {
+    background: #ef4444;
+    color: white;
+}
+
+.save-btn {
+    background: #a5b4fc;
+}
+
+.save-btn:hover {
+    background: #6366f1;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #2563eb;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+a:hover {
+    text-decoration: underline;
+}
